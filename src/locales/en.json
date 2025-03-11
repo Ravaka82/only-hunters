@@ -1,0 +1,562 @@
+{
+  "required_fields": "Required fields.",
+  "previous": "Back",
+  "next": "Next",
+  "submit": "Submit",
+  "search_an_option": "Search an option",
+  "select_an_option": "Select an option",
+  "no_option": "No option found",
+  "year": "Year",
+  "month": "Month",
+  "day": "Day",
+  "alert": {
+    "success": {
+      "title": "Your application has been successfully submitted!",
+      "description": "Thank you for your interest in our agency. Your application has been received and will be processed as soon as possible. We will contact you shortly to inform you about the next steps. Thank you for your patience and trust."
+    }
+  },
+  "step1": {
+    "title": "Personal Information",
+    "description": "This information allows us to get to know you better and verify your identity for security and compliance reasons."
+  },
+  "step2": {
+    "title": "Address Information",
+    "description": "We need this information for billing purposes and to better understand your geographical location."
+  },
+  "step3": {
+    "title": "Contact Information",
+    "description": "This information is essential for us to communicate effectively with you and provide ongoing support."
+  },
+  "step4": {
+    "title": "Experience and English Level",
+    "description": "This information helps us assess your ability to create quality content and interact with our team."
+  },
+  "step5": {
+    "title": "Content Preferences",
+    "description": "This allows us to better tailor our promotion strategies to your preferences and capabilities."
+  },
+  "step6": {
+    "title": "OnlyFans Details",
+    "description": "This information is crucial for assessing your current presence on the platform and creating personalized growth strategies."
+  },
+  "step7": {
+    "title": "Photos and Terms of Use",
+    "description": "Photos help us evaluate your application and verify your profile, while acceptance of the terms ensures transparent and compliant collaboration."
+  },
+  "firstname": {
+    "label": "First Name",
+    "description": "Your first name",
+    "placeholder": "Enter your first name",
+    "rules": {
+      "required": "First name is required",
+      "maxlength": "First name cannot exceed 64 characters"
+    }
+  },
+  "lastname": {
+    "label": "Last Name",
+    "description": "Your last name",
+    "placeholder": "Enter your last name",
+    "rules": {
+      "required": "Last name is required",
+      "maxlength": "Last name cannot exceed 64 characters"
+    }
+  },
+  "birthdate": {
+    "label": "Birthdate",
+    "description": "Your birthdate",
+    "rules": {
+      "required": "Birthdate is required",
+      "max": "You must be at least 18 years old"
+    }
+  },
+  "nationality": {
+    "label": "Nationality",
+    "description": "Your nationality",
+    "placeholder": "Select your nationality",
+    "rules": {
+      "required": "Nationality is required"
+    }
+  },
+  "address1": {
+    "label": "Address",
+    "description": "Your address",
+    "placeholder": "Enter your address",
+    "rules": {
+      "required": "Address is required",
+      "maxlength": "Address cannot exceed 256 characters"
+    }
+  },
+  "address2": {
+    "label": "Address Line 2",
+    "description": "Your address line 2",
+    "placeholder": "Enter your address",
+    "rules": {
+      "maxlength": "Address line 2 cannot exceed 256 characters"
+    }
+  },
+  "city": {
+    "label": "City",
+    "description": "Your city",
+    "placeholder": "Enter your city",
+    "rules": {
+      "required": "City is required",
+      "maxlength": "City cannot exceed 64 characters"
+    }
+  },
+  "state": {
+    "label": "State",
+    "description": "Your state",
+    "placeholder": "Enter your state",
+    "rules": {
+      "required": "State is required"
+    }
+  },
+  "zip_code": {
+    "label": "Zip Code",
+    "description": "Your zip code",
+    "placeholder": "Enter your zip code",
+    "rules": {
+      "required": "Zip code is required"
+    }
+  },
+  "country": {
+    "label": "Country",
+    "placeholder": "Select your country",
+    "description": "Your country",
+    "rules": {
+      "required": "Country is required"
+    }
+  },
+  "whatsapp": {
+    "label": "Whatsapp",
+    "description": "Your Whatsapp number",
+    "placeholder": "Enter your Whatsapp number",
+    "rules": {
+      "invalid": "Your Whatsapp number is incorrect"
+    }
+  },
+  "email": {
+    "label": "Email",
+    "description": "Your email address",
+    "placeholder": "Enter your email address",
+    "rules": {
+      "invalid": "Your email address is incorrect"
+    }
+  },
+  "has_telegram": {
+    "label": "I have a Telegram account with a username",
+    "description": "Check this box if you have a Telegram account and have set up a username. The username is a unique identifier that you can easily configure in the app settings. It is recommended to have a username so that we can easily contact you via Telegram."
+  },
+  "telegram": {
+    "label": "Telegram",
+    "description": "Your Telegram username",
+    "placeholder": "Enter your Telegram username",
+    "rules": {
+      "regex": "Your username must be between 5 and 32 characters (letters, numbers, underscore)"
+    }
+  },
+  "instagram": {
+    "label": "Instagram",
+    "description": "Your Instagram ID",
+    "placeholder": "Enter your Instagram ID",
+    "rules": {
+      "regex": "Your ID must be between 1 and 30 characters (letters, numbers, dots, underscore)"
+    }
+  },
+  "contact_perso_twitter": {
+    "label": "Twitter",
+    "description": "Your Twitter ID",
+    "placeholder": "Enter your Twitter ID",
+    "rules": {
+      "regex": "Your ID must be between 1 and 15 characters (letters, numbers, underscore)"
+    }
+  },
+  "contact_perso_tiktok": {
+    "label": "TikTok",
+    "description": "Your TikTok ID",
+    "placeholder": "Enter your TikTok ID",
+    "rules": {
+      "regex": "Your ID must be between 1 and 24 characters (letters, numbers, dots, underscore)"
+    }
+  },
+  "contact_perso_reddit": {
+    "label": "Reddit",
+    "description": "Your Reddit ID",
+    "placeholder": "Enter your Reddit ID",
+    "rules": {
+      "regex": "Your ID must be between 3 and 20 characters (letters, numbers, underscores, dashes)"
+    }
+  },
+  "contact_perso_snapchat": {
+    "label": "Snapchat",
+    "description": "Your Snapchat ID",
+    "placeholder": "Enter your Snapchat ID",
+    "rules": {
+      "regex": "Your ID must be between 3 and 15 characters (letters, numbers, dots, underscores, dashes)"
+    }
+  },
+  "experience": {
+    "label": "Experience",
+    "description": "Your level of experience on private platforms",
+    "placeholder": "Select your level of experience",
+    "rules": {
+      "required": "Level of experience is required"
+    }
+  },
+  "english_level": {
+    "label": "English Level",
+    "description": "Your English level",
+    "placeholder": "Select your English level",
+    "rules": {
+      "required": "English level is required"
+    }
+  },
+  "comfortable_with_videos": {
+    "label": "Comfortable with Videos?",
+    "description": "Are you comfortable creating videos (TikTok, Instagram Reels, etc.)?"
+  },
+  "promote_on_social_media": {
+    "label": "Promote on Social Media?",
+    "description": "Are you willing to promote your profile on social media?"
+  },
+  "country_blocked": {
+    "label": "Block My Country?",
+    "description": "Do you want to hide your profile from your country?"
+  },
+  "time_per_day": {
+    "label": "Time Available Per Day",
+    "description": "How much time per day can you dedicate to content creation?",
+    "placeholder": "Select the time available per day",
+    "rules": {
+      "required": "Time available per day is required"
+    }
+  },
+  "planned_content": {
+    "label": "Planned Content Type",
+    "description": "What type of content do you plan to create?",
+    "rules": {
+      "min": "You must select at least 3 planned content types"
+    }
+  },
+  "existing_content": {
+    "label": "Existing Content Type",
+    "description": "What type of content have you already created?",
+    "rules": {
+      "min": "You must select at least 2 existing content types"
+    }
+  },
+  "hardware": {
+    "label": "Phone Model",
+    "description": "Indicate your phone model (e.g., iPhone 15 Pro Max)",
+    "placeholder": "Enter your phone model",
+    "rules": {
+      "required": "Phone model is required"
+    }
+  },
+  "has_onlyfans": {
+    "label": "Do you have OnlyFans?",
+    "description": "Do you have an OnlyFans account?"
+  },
+  "username": {
+    "label": "Username",
+    "description": "Your OnlyFans username",
+    "placeholder": "Enter your OnlyFans username",
+    "rules": {
+      "required": "OnlyFans username is required",
+      "invalid": "OnlyFans username is incorrect"
+    }
+  },
+  "is_verified": {
+    "label": "Verified Account?",
+    "description": "Is your OnlyFans account verified?"
+  },
+  "is_paid": {
+    "label": "Paid Subscription?",
+    "description": "Is your OnlyFans account subscription-based?"
+  },
+  "follower_count": {
+    "label": "Number of Followers",
+    "description": "Your number of followers",
+    "placeholder": "Enter your number of followers",
+    "rules": {
+      "required": "Number of followers is required",
+      "invalid": "Number of followers is incorrect"
+    }
+  },
+  "monthly_income": {
+    "label": "Monthly Income",
+    "description": "Your monthly income",
+    "placeholder": "Enter your monthly income",
+    "rules": {
+      "required": "Monthly income is required",
+      "invalid": "Monthly income is incorrect"
+    }
+  },
+  "photos": {
+    "label": "Photos",
+    "description": "Upload your photos",
+    "rules": {
+      "required": "Photos are required",
+      "file_size": "Each photo must be under 10 MB",
+      "file_type": "Only PNG and JPG photos are allowed",
+      "min_files": "You must upload at least 5 photos",
+      "max_files": "You cannot upload more than 10 photos"
+    }
+  },
+  "applicant_notes": {
+    "label": "Comment",
+    "description": "Please add any comments or additional information you would like to provide here.",
+    "rules": {
+      "maxlength": "The comment cannot exceed 5000 characters."
+    }
+  },
+  "terms_accepted": {
+    "label": "Accept Terms",
+    "description": "By submitting your information, you agree to be contacted for verification and to present our services. If your application is approved, your information will be shared with our partners to find you a manager and a team. See our legal notice for more details.",
+    "rules": {
+      "required": "You must accept the terms"
+    }
+  },
+  "LocationTypeEnum": {
+    "RESIDENCE": "Residence",
+    "BIRTH": "Birth"
+  },
+  "ContactTypeEnum": {
+    "PRO": "Pro",
+    "PERSO": "Personal"
+  },
+  "ContactNameEnum": {
+    "TELEGRAM": "Telegram",
+    "INSTAGRAM": "Instagram",
+    "TWITTER": "Twitter",
+    "TIKTOK": "TikTok",
+    "REDDIT": "Reddit",
+    "SNAPCHAT": "Snapchat",
+    "EMAIL": "Email",
+    "WHATSAPP": "WhatsApp"
+  },
+  "ExperienceEnum": {
+    "BEGINNER": "Beginner",
+    "INTERMEDIATE": "Intermediate ($0-1000 generated)",
+    "ADVANCED": "Advanced ($1000-8000 generated)",
+    "EXPERT": "Expert ($8000+ generated)"
+  },
+  "EnglishLevelEnum": {
+    "A1": "Complete Beginner (A1)",
+    "A2": "Advanced Beginner (A2)",
+    "B1": "Intermediate (B1)",
+    "B2": "Upper Intermediate (B2)",
+    "C1": "Advanced (C1)",
+    "C2": "Proficient (C2)"
+  },
+  "TimePerDayEnum": {
+    "H1_2": "1-2 hours",
+    "H3_4": "3-4 hours",
+    "H4_5": "4-5 hours",
+    "H5_PLUS": "5+ hours"
+  },
+  "ContentKindEnum": {
+    "LINGERIE_NUDES": "Lingerie or artistic nudes",
+    "BDSM": "Bondage, domination, submission, sadomasochism",
+    "ANAL": "Anal content",
+    "SOLO": "Masturbation",
+    "COUPLE": "Couple content"
+  },
+  "PlatformTypeEnum": {
+    "ONLYFANS": "OnlyFans",
+    "MYM": "MYM"
+  },
+  "CountryCodeEnum": {
+    "AD": "Andorra",
+    "AE": "United Arab Emirates",
+    "AF": "Afghanistan",
+    "AG": "Antigua and Barbuda",
+    "AL": "Albania",
+    "AM": "Armenia",
+    "AO": "Angola",
+    "AR": "Argentina",
+    "AT": "Austria",
+    "AU": "Australia",
+    "AZ": "Azerbaijan",
+    "BA": "Bosnia and Herzegovina",
+    "BB": "Barbados",
+    "BD": "Bangladesh",
+    "BE": "Belgium",
+    "BF": "Burkina Faso",
+    "BG": "Bulgaria",
+    "BH": "Bahrain",
+    "BI": "Burundi",
+    "BJ": "Benin",
+    "BN": "Brunei",
+    "BO": "Bolivia",
+    "BR": "Brazil",
+    "BS": "Bahamas",
+    "BT": "Bhutan",
+    "BW": "Botswana",
+    "BY": "Belarus",
+    "BZ": "Belize",
+    "CA": "Canada",
+    "CF": "Central African Republic",
+    "CG": "Republic of the Congo",
+    "CH": "Switzerland",
+    "CL": "Chile",
+    "CM": "Cameroon",
+    "CN": "China",
+    "CO": "Colombia",
+    "CR": "Costa Rica",
+    "CU": "Cuba",
+    "CV": "Cape Verde",
+    "CY": "Cyprus",
+    "CZ": "Czech Republic",
+    "DE": "Germany",
+    "DJ": "Djibouti",
+    "DK": "Denmark",
+    "DM": "Dominica",
+    "DO": "Dominican Republic",
+    "DZ": "Algeria",
+    "EC": "Ecuador",
+    "EE": "Estonia",
+    "EG": "Egypt",
+    "ER": "Eritrea",
+    "ES": "Spain",
+    "ET": "Ethiopia",
+    "FI": "Finland",
+    "FJ": "Fiji",
+    "FM": "Micronesia",
+    "FR": "France",
+    "GA": "Gabon",
+    "GB": "United Kingdom",
+    "GE": "Georgia",
+    "GH": "Ghana",
+    "GM": "Gambia",
+    "GN": "Guinea",
+    "GQ": "Equatorial Guinea",
+    "GR": "Greece",
+    "GT": "Guatemala",
+    "GW": "Guinea-Bissau",
+    "GY": "Guyana",
+    "HN": "Honduras",
+    "HR": "Croatia",
+    "HT": "Haiti",
+    "HU": "Hungary",
+    "ID": "Indonesia",
+    "IE": "Ireland",
+    "IL": "Israel",
+    "IN": "India",
+    "IQ": "Iraq",
+    "IR": "Iran",
+    "IS": "Iceland",
+    "IT": "Italy",
+    "JM": "Jamaica",
+    "JO": "Jordan",
+    "JP": "Japan",
+    "KE": "Kenya",
+    "KG": "Kyrgyzstan",
+    "KH": "Cambodia",
+    "KI": "Kiribati",
+    "KM": "Comoros",
+    "KN": "Saint Kitts and Nevis",
+    "KP": "North Korea",
+    "KR": "South Korea",
+    "KW": "Kuwait",
+    "KZ": "Kazakhstan",
+    "LA": "Laos",
+    "LB": "Lebanon",
+    "LC": "Saint Lucia",
+    "LI": "Liechtenstein",
+    "LK": "Sri Lanka",
+    "LR": "Liberia",
+    "LS": "Lesotho",
+    "LT": "Lithuania",
+    "LU": "Luxembourg",
+    "LV": "Latvia",
+    "LY": "Libya",
+    "MA": "Morocco",
+    "MC": "Monaco",
+    "MD": "Moldova",
+    "ME": "Montenegro",
+    "MG": "Madagascar",
+    "MH": "Marshall Islands",
+    "MK": "North Macedonia",
+    "ML": "Mali",
+    "MM": "Myanmar",
+    "MN": "Mongolia",
+    "MR": "Mauritania",
+    "MT": "Malta",
+    "MU": "Mauritius",
+    "MV": "Maldives",
+    "MW": "Malawi",
+    "MX": "Mexico",
+    "MY": "Malaysia",
+    "MZ": "Mozambique",
+    "NA": "Namibia",
+    "NE": "Niger",
+    "NG": "Nigeria",
+    "NI": "Nicaragua",
+    "NL": "Netherlands",
+    "NO": "Norway",
+    "NP": "Nepal",
+    "NR": "Nauru",
+    "NU": "Niue",
+    "NZ": "New Zealand",
+    "OM": "Oman",
+    "PA": "Panama",
+    "PE": "Peru",
+    "PG": "Papua New Guinea",
+    "PH": "Philippines",
+    "PK": "Pakistan",
+    "PL": "Poland",
+    "PT": "Portugal",
+    "PW": "Palau",
+    "PY": "Paraguay",
+    "QA": "Qatar",
+    "RO": "Romania",
+    "RS": "Serbia",
+    "RU": "Russia",
+    "RW": "Rwanda",
+    "SA": "Saudi Arabia",
+    "SB": "Solomon Islands",
+    "SC": "Seychelles",
+    "SD": "Sudan",
+    "SE": "Sweden",
+    "SG": "Singapore",
+    "SI": "Slovenia",
+    "SK": "Slovakia",
+    "SL": "Sierra Leone",
+    "SM": "San Marino",
+    "SN": "Senegal",
+    "SO": "Somalia",
+    "SR": "Suriname",
+    "ST": "Sao Tome and Principe",
+    "SV": "El Salvador",
+    "SY": "Syria",
+    "SZ": "Eswatini",
+    "TD": "Chad",
+    "TG": "Togo",
+    "TH": "Thailand",
+    "TJ": "Tajikistan",
+    "TL": "East Timor",
+    "TM": "Turkmenistan",
+    "TN": "Tunisia",
+    "TO": "Tonga",
+    "TR": "Turkey",
+    "TT": "Trinidad and Tobago",
+    "TV": "Tuvalu",
+    "TZ": "Tanzania",
+    "UA": "Ukraine",
+    "UG": "Uganda",
+    "US": "United States",
+    "UY": "Uruguay",
+    "UZ": "Uzbekistan",
+    "VA": "Vatican",
+    "VC": "Saint Vincent and the Grenadines",
+    "VE": "Venezuela",
+    "VN": "Vietnam",
+    "VU": "Vanuatu",
+    "WS": "Samoa",
+    "YE": "Yemen",
+    "ZA": "South Africa",
+    "ZM": "Zambia",
+    "ZW": "Zimbabwe"
+  }
+}

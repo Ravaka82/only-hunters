@@ -1,0 +1,562 @@
+{
+  "required_fields": "Champs obligatoires.",
+  "previous": "Retour",
+  "next": "Suivant",
+  "submit": "Envoyer",
+  "search_an_option": "Rechercher une option",
+  "select_an_option": "Sélectionnez une option",
+  "no_option": "Aucune option trouvée",
+  "year": "Année",
+  "month": "Mois",
+  "day": "Jour",
+  "alert": {
+    "success": {
+      "title": "Votre candidature a bien été envoyée !",
+      "description": "Nous vous remercions pour l'intérêt que vous portez à notre agence. Votre candidature a été reçue et sera traitée dans les plus brefs délais. Nous vous contacterons très prochainement pour vous informer de la suite donnée à votre demande. Merci de votre patience et de votre confiance."
+    }
+  },
+  "step1": {
+    "title": "Informations Personnelles",
+    "description": "Ces informations nous permettent de mieux vous connaître et de vérifier votre identité pour des raisons de sécurité et de conformité."
+  },
+  "step2": {
+    "title": "Informations d'Adresse",
+    "description": "Nous avons besoin de ces informations pour des raisons de facturation et pour mieux comprendre votre localisation géographique."
+  },
+  "step3": {
+    "title": "Informations de Contact",
+    "description": "Ces informations sont essentielles pour que nous puissions communiquer efficacement avec vous et vous fournir un support continu."
+  },
+  "step4": {
+    "title": "Expérience et Niveau d'Anglais",
+    "description": "Ces informations nous aident à évaluer votre capacité à créer du contenu de qualité et à interagir avec notre équipe."
+  },
+  "step5": {
+    "title": "Préférences de Contenu",
+    "description": "Cela nous permet de mieux adapter nos stratégies de promotion à vos préférences et capacités."
+  },
+  "step6": {
+    "title": "Détails OnlyFans",
+    "description": "Ces informations sont cruciales pour évaluer votre présence actuelle sur la plateforme et pour élaborer des stratégies de croissance personnalisées."
+  },
+  "step7": {
+    "title": "Photos et Conditions d'Utilisation",
+    "description": "Les photos nous aident à évaluer votre candidature et à vérifier votre profil, tandis que l'acceptation des termes garantit une collaboration transparente et conforme."
+  },
+  "firstname": {
+    "label": "Prénom",
+    "description": "Votre prénom",
+    "placeholder": "Entrez votre prénom",
+    "rules": {
+      "required": "Le prénom est obligatoire",
+      "maxlength": "Le prénom ne peut pas dépasser 64 caractères"
+    }
+  },
+  "lastname": {
+    "label": "Nom de famille",
+    "description": "Votre nom de famille",
+    "placeholder": "Entrez votre nom de famille",
+    "rules": {
+      "required": "Le nom de famille est obligatoire",
+      "maxlength": "Le nom de famille ne peut pas dépasser 64 caractères"
+    }
+  },
+  "birthdate": {
+    "label": "Date de naissance",
+    "description": "Votre date de naissance",
+    "rules": {
+      "required": "La date de naissance est obligatoire",
+      "max": "Vous devez avoir 18 ans révolus"
+    }
+  },
+  "nationality": {
+    "label": "Nationalité",
+    "description": "Votre nationalité",
+    "placeholder": "Selectionnez votre nationalité",
+    "rules": {
+      "required": "La nationalité est obligatoire"
+    }
+  },
+  "address1": {
+    "label": "Adresse",
+    "description": "Votre adresse",
+    "placeholder": "Entrez votre adresse",
+    "rules": {
+      "required": "L'adresse est obligatoire",
+      "maxlength": "L'adresse ne peut pas dépasser 256 caractères"
+    }
+  },
+  "address2": {
+    "label": "Adresse Ligne 2",
+    "description": "Votre adresse ligne 2",
+    "placeholder": "Entrez votre adresse",
+    "rules": {
+      "maxlength": "L'adresse ligne 2 ne peut pas dépasser 256 caractères"
+    }
+  },
+  "city": {
+    "label": "Ville",
+    "description": "Votre ville",
+    "placeholder": "Entrez votre ville",
+    "rules": {
+      "required": "La ville est obligatoire",
+      "maxlength": "La ville ne peut pas dépasser 64 caractères"
+    }
+  },
+  "state": {
+    "label": "État",
+    "description": "Votre état",
+    "placeholder": "Entrez votre état",
+    "rules": {
+      "required": "L'état est obligatoire"
+    }
+  },
+  "zip_code": {
+    "label": "Code postal",
+    "description": "Votre code postal",
+    "placeholder": "Entrez votre code postal",
+    "rules": {
+      "required": "Le code postal est obligatoire"
+    }
+  },
+  "country": {
+    "label": "Pays",
+    "placeholder": "Sélectionnez votre Pays",
+    "description": "Votre pays",
+    "rules": {
+      "required": "Le pays est obligatoire"
+    }
+  },
+  "whatsapp": {
+    "label": "Whatsapp",
+    "description": "Votre numéro Whatsapp",
+    "placeholder": "Entrez votre numéro Whatsapp",
+    "rules": {
+      "invalid": "Votre numéro Whatsapp est incorrect"
+    }
+  },
+  "email": {
+    "label": "Email",
+    "description": "Votre adresse Email",
+    "placeholder": "Entrez votre adresse Email",
+    "rules": {
+      "invalid": "Votre adresse Email est incorrecte"
+    }
+  },
+  "has_telegram": {
+    "label": "Je possède un compte Telegram avec un nom d'utilisateur",
+    "description": "Cochez cette case si vous avez un compte Telegram et que vous avez défini un nom d'utilisateur. Le nom d'utilisateur est un identifiant unique que vous pouvez configurer facilement dans les paramètres de l'application. Il est recommandé d'avoir un nom d'utilisateur pour que nous puissions facilement entrer en contact avec vous via Telegram."
+  },
+  "telegram": {
+    "label": "Telegram",
+    "description": "Votre nom d'utilisateur Telegram",
+    "placeholder": "Entrez votre nom d'utilisateur Telegram",
+    "rules": {
+      "regex": "Votre nom d'utilisateur doit comporter entre 5 et 32 caractères (lettres, chiffres, underscore)"
+    }
+  },
+  "instagram": {
+    "label": "Instagram",
+    "description": "Votre identifiant Instagram",
+    "placeholder": "Entrez votre identifiant Instagram",
+    "rules": {
+      "regex": "Votre identifiant doit comporter entre 1 et 30 caractères (lettres, chiffres, points, underscore)"
+    }
+  },
+  "contact_perso_twitter": {
+    "label": "Twitter",
+    "description": "Votre identifiant Twitter",
+    "placeholder": "Entrez votre identifiant Twitter",
+    "rules": {
+      "regex": "Votre identifiant doit comporter entre 1 et 15 caractères (lettres, chiffres, underscore)"
+    }
+  },
+  "contact_perso_tiktok": {
+    "label": "TikTok",
+    "description": "Votre identifiant TikTok",
+    "placeholder": "Entrez votre identifiant TikTok",
+    "rules": {
+      "regex": "Votre identifiant doit comporter entre 1 et 24 caractères (lettres, chiffres, points, underscore)"
+    }
+  },
+  "contact_perso_reddit": {
+    "label": "Reddit",
+    "description": "Votre identifiant Reddit",
+    "placeholder": "Entrez votre identifiant Reddit",
+    "rules": {
+      "regex": "Votre identifiant doit comporter entre 3 et 20 caractères (lettres, chiffres, underscores, tirets)"
+    }
+  },
+  "contact_perso_snapchat": {
+    "label": "Snapchat",
+    "description": "Votre identifiant Snapchat",
+    "placeholder": "Entrez votre identifiant Snapchat",
+    "rules": {
+      "regex": "Votre identifiant doit comporter entre 3 et 15 caractères (lettres, chiffres, points, underscores, tirets)"
+    }
+  },
+  "experience": {
+    "label": "Expérience",
+    "description": "Votre niveau d'expérience sur les plateformes privées",
+    "placeholder": "Sélectionnez votre niveau d'expérience",
+    "rules": {
+      "required": "Le niveau d'expérience est obligatoire"
+    }
+  },
+  "english_level": {
+    "label": "Niveau d'anglais",
+    "description": "Votre niveau d'anglais",
+    "placeholder": "Sélectionnez votre niveau d'anglais",
+    "rules": {
+      "required": "Le niveau d'anglais est obligatoire"
+    }
+  },
+  "comfortable_with_videos": {
+    "label": "À l'aise avec les vidéos ?",
+    "description": "Êtes-vous à l'aise avec la création de vidéos (TikTok, Instagram Reels, etc.) ?"
+  },
+  "promote_on_social_media": {
+    "label": "Promouvoir sur les réseaux sociaux ?",
+    "description": "Êtes-vous prêt à promouvoir votre profil sur les réseaux sociaux ?"
+  },
+  "country_blocked": {
+    "label": "Bloquer mon pays ?",
+    "description": "Voulez-vous cacher votre profil à votre pays ?"
+  },
+  "time_per_day": {
+    "label": "Temps disponible par jour",
+    "description": "Combien de temps par jour pouvez-vous consacrer à la création de contenu ?",
+    "placeholder": "Sélectionnez le temps disponible par jour",
+    "rules": {
+      "required": "Le temps disponible par jour est obligatoire"
+    }
+  },
+  "planned_content": {
+    "label": "Type de contenu envisagé",
+    "description": "Quel type de contenu envisagez-vous de créer ?",
+    "rules": {
+      "min": "Vous devez sélectionner au moins 3 types de contenu envisagés"
+    }
+  },
+  "existing_content": {
+    "label": "Type de contenu existant",
+    "description": "Quel type de contenu avez-vous déjà créé ?",
+    "rules": {
+      "min": "Vous devez sélectionner au moins 2 types de contenu existants"
+    }
+  },
+  "hardware": {
+    "label": "Modèle de téléphone",
+    "description": "Indiquez votre modèle de téléphone (ex : iPhone 15 Pro Max)",
+    "placeholder": "Entrez votre modèle de téléphone",
+    "rules": {
+      "required": "Le modèle de téléphone est obligatoire"
+    }
+  },
+  "has_onlyfans": {
+    "label": "Avez-vous OnlyFans ?",
+    "description": "Avez-vous un compte OnlyFans ?"
+  },
+  "username": {
+    "label": "Nom d'utilisateur",
+    "description": "Votre nom d'utilisateur OnlyFans",
+    "placeholder": "Entrez votre nom d'utilisateur OnlyFans",
+    "rules": {
+      "required": "Le nom d'utilisateur OnlyFans est obligatoire",
+      "invalid": "Le nom d'utilisateur OnlyFans est incorrect"
+    }
+  },
+  "is_verified": {
+    "label": "Compte vérifié ?",
+    "description": "Votre compte OnlyFans est-il vérifié ?"
+  },
+  "is_paid": {
+    "label": "Abonnement payant ?",
+    "description": "L'abonnement à votre compte OnlyFans est-il payant ?"
+  },
+  "follower_count": {
+    "label": "Nombre de followers",
+    "description": "Votre nombre de followers",
+    "placeholder": "Entrez votre nombre de followers",
+    "rules": {
+      "required": "Le nombre de followers est obligatoire",
+      "invalid": "Le nombre de followers est incorrect"
+    }
+  },
+  "monthly_income": {
+    "label": "Revenu mensuel",
+    "description": "Votre revenu mensuel",
+    "placeholder": "Entrez votre revenu mensuel",
+    "rules": {
+      "required": "Le revenu mensuel est obligatoire",
+      "invalid": "Le revenu mensuel est incorrect"
+    }
+  },
+  "photos": {
+    "label": "Photos",
+    "description": "Téléchargez vos photos",
+    "rules": {
+      "required": "Les photos sont obligatoires",
+      "file_size": "Chaque photo doit être inférieure à 10 Mo",
+      "file_type": "Seules les photos de type PNG et JPG sont autorisées",
+      "min_files": "Vous devez télécharger au moins 5 photos",
+      "max_files": "Vous ne pouvez pas télécharger plus de 10 photos"
+    }
+  },
+  "applicant_notes": {
+    "label": "Commentaire",
+    "description": "Veuillez ajouter ici tout commentaire ou précision que vous souhaitez apporter.",
+    "rules": {
+      "maxlength": "Le commentaire ne peut pas dépasser 5000 caractères."
+    }
+  },
+  "terms_accepted": {
+    "label": "Accepter les conditions",
+    "description": "En soumettant vos informations, vous acceptez que nous vous contactions pour vérifier vos coordonnées et vous présenter nos services. Si votre candidature est approuvée, vos informations seront partagées avec nos partenaires pour vous trouver un manager et une équipe. Consultez nos mentions légales pour plus de détails.",
+    "rules": {
+      "required": "Vous devez accepter les conditions"
+    }
+  },
+  "LocationTypeEnum": {
+    "RESIDENCE": "Résidence",
+    "BIRTH": "Naissance"
+  },
+  "ContactTypeEnum": {
+    "PRO": "Pro",
+    "PERSO": "Perso"
+  },
+  "ContactNameEnum": {
+    "TELEGRAM": "Télégram",
+    "INSTAGRAM": "Instagram",
+    "TWITTER": "Twitter",
+    "TIKTOK": "TikTok",
+    "REDDIT": "Reddit",
+    "SNAPCHAT": "Snapchat",
+    "EMAIL": "Email",
+    "WHATSAPP": "WhatsApp"
+  },
+  "ExperienceEnum": {
+    "BEGINNER": "Débutant",
+    "INTERMEDIATE": "Intermédiaire (0-1000 $ générés)",
+    "ADVANCED": "Avancé (1000-8000 $ générés)",
+    "EXPERT": "Expert (8000+ $ générés)"
+  },
+  "EnglishLevelEnum": {
+    "A1": "Débutant complet (A1)",
+    "A2": "Débutant avancé (A2)",
+    "B1": "Intermédiaire (B1)",
+    "B2": "Intermédiaire supérieur (B2)",
+    "C1": "Avancé (C1)",
+    "C2": "Maîtrise (C2)"
+  },
+  "TimePerDayEnum": {
+    "H1_2": "1-2 heures",
+    "H3_4": "3-4 heures",
+    "H4_5": "4-5 heures",
+    "H5_PLUS": "5+ heures"
+  },
+  "ContentKindEnum": {
+    "LINGERIE_NUDES": "Lingerie ou nus artistiques",
+    "BDSM": "Bondage, domination, soumission, sadomasochisme",
+    "ANAL": "Contenu anal",
+    "SOLO": "Masturbation",
+    "COUPLE": "Contenu en couple"
+  },
+  "PlatformTypeEnum": {
+    "ONLYFANS": "OnlyFans",
+    "MYM": "MYM"
+  },
+  "CountryCodeEnum": {
+    "AD": "Andorre",
+    "AE": "Émirats Arabes Unis",
+    "AF": "Afghanistan",
+    "AG": "Antigua-et-Barbuda",
+    "AL": "Albanie",
+    "AM": "Arménie",
+    "AO": "Angola",
+    "AR": "Argentine",
+    "AT": "Autriche",
+    "AU": "Australie",
+    "AZ": "Azerbaïdjan",
+    "BA": "Bosnie-Herzégovine",
+    "BB": "Barbade",
+    "BD": "Bangladesh",
+    "BE": "Belgique",
+    "BF": "Burkina Faso",
+    "BG": "Bulgarie",
+    "BH": "Bahreïn",
+    "BI": "Burundi",
+    "BJ": "Bénin",
+    "BN": "Brunei",
+    "BO": "Bolivie",
+    "BR": "Brésil",
+    "BS": "Bahamas",
+    "BT": "Bhoutan",
+    "BW": "Botswana",
+    "BY": "Biélorussie",
+    "BZ": "Belize",
+    "CA": "Canada",
+    "CF": "République Centrafricaine",
+    "CG": "République du Congo",
+    "CH": "Suisse",
+    "CL": "Chili",
+    "CM": "Cameroun",
+    "CN": "Chine",
+    "CO": "Colombie",
+    "CR": "Costa Rica",
+    "CU": "Cuba",
+    "CV": "Cap-Vert",
+    "CY": "Chypre",
+    "CZ": "République Tchèque",
+    "DE": "Allemagne",
+    "DJ": "Djibouti",
+    "DK": "Danemark",
+    "DM": "Dominique",
+    "DO": "République Dominicaine",
+    "DZ": "Algérie",
+    "EC": "Équateur",
+    "EE": "Estonie",
+    "EG": "Égypte",
+    "ER": "Érythrée",
+    "ES": "Espagne",
+    "ET": "Éthiopie",
+    "FI": "Finlande",
+    "FJ": "Fidji",
+    "FM": "Micronésie",
+    "FR": "France",
+    "GA": "Gabon",
+    "GB": "Royaume-Uni",
+    "GE": "Géorgie",
+    "GH": "Ghana",
+    "GM": "Gambie",
+    "GN": "Guinée",
+    "GQ": "Guinée Équatoriale",
+    "GR": "Grèce",
+    "GT": "Guatemala",
+    "GW": "Guinée-Bissau",
+    "GY": "Guyana",
+    "HN": "Honduras",
+    "HR": "Croatie",
+    "HT": "Haïti",
+    "HU": "Hongrie",
+    "ID": "Indonésie",
+    "IE": "Irlande",
+    "IL": "Israël",
+    "IN": "Inde",
+    "IQ": "Irak",
+    "IR": "Iran",
+    "IS": "Islande",
+    "IT": "Italie",
+    "JM": "Jamaïque",
+    "JO": "Jordanie",
+    "JP": "Japon",
+    "KE": "Kenya",
+    "KG": "Kirghizistan",
+    "KH": "Cambodge",
+    "KI": "Kiribati",
+    "KM": "Comores",
+    "KN": "Saint-Kitts-et-Nevis",
+    "KP": "Corée du Nord",
+    "KR": "Corée du Sud",
+    "KW": "Koweït",
+    "KZ": "Kazakhstan",
+    "LA": "Laos",
+    "LB": "Liban",
+    "LC": "Sainte-Lucie",
+    "LI": "Liechtenstein",
+    "LK": "Sri Lanka",
+    "LR": "Libéria",
+    "LS": "Lesotho",
+    "LT": "Lituanie",
+    "LU": "Luxembourg",
+    "LV": "Lettonie",
+    "LY": "Libye",
+    "MA": "Maroc",
+    "MC": "Monaco",
+    "MD": "Moldavie",
+    "ME": "Monténégro",
+    "MG": "Madagascar",
+    "MH": "Îles Marshall",
+    "MK": "Macédoine du Nord",
+    "ML": "Mali",
+    "MM": "Myanmar",
+    "MN": "Mongolie",
+    "MR": "Mauritanie",
+    "MT": "Malte",
+    "MU": "Maurice",
+    "MV": "Maldives",
+    "MW": "Malawi",
+    "MX": "Mexique",
+    "MY": "Malaisie",
+    "MZ": "Mozambique",
+    "NA": "Namibie",
+    "NE": "Niger",
+    "NG": "Nigeria",
+    "NI": "Nicaragua",
+    "NL": "Pays-Bas",
+    "NO": "Norvège",
+    "NP": "Népal",
+    "NR": "Nauru",
+    "NU": "Niue",
+    "NZ": "Nouvelle-Zélande",
+    "OM": "Oman",
+    "PA": "Panama",
+    "PE": "Pérou",
+    "PG": "Papouasie-Nouvelle-Guinée",
+    "PH": "Philippines",
+    "PK": "Pakistan",
+    "PL": "Pologne",
+    "PT": "Portugal",
+    "PW": "Palaos",
+    "PY": "Paraguay",
+    "QA": "Qatar",
+    "RO": "Roumanie",
+    "RS": "Serbie",
+    "RU": "Russie",
+    "RW": "Rwanda",
+    "SA": "Arabie Saoudite",
+    "SB": "Îles Salomon",
+    "SC": "Seychelles",
+    "SD": "Soudan",
+    "SE": "Suède",
+    "SG": "Singapour",
+    "SI": "Slovénie",
+    "SK": "Slovaquie",
+    "SL": "Sierra Leone",
+    "SM": "Saint-Marin",
+    "SN": "Sénégal",
+    "SO": "Somalie",
+    "SR": "Suriname",
+    "ST": "Sao Tomé-et-Principe",
+    "SV": "Salvador",
+    "SY": "Syrie",
+    "SZ": "Eswatini",
+    "TD": "Tchad",
+    "TG": "Togo",
+    "TH": "Thaïlande",
+    "TJ": "Tadjikistan",
+    "TL": "Timor oriental",
+    "TM": "Turkménistan",
+    "TN": "Tunisie",
+    "TO": "Tonga",
+    "TR": "Turquie",
+    "TT": "Trinité-et-Tobago",
+    "TV": "Tuvalu",
+    "TZ": "Tanzanie",
+    "UA": "Ukraine",
+    "UG": "Ouganda",
+    "US": "États-Unis",
+    "UY": "Uruguay",
+    "UZ": "Ouzbékistan",
+    "VA": "Vatican",
+    "VC": "Saint-Vincent-et-les-Grenadines",
+    "VE": "Venezuela",
+    "VN": "Viêt Nam",
+    "VU": "Vanuatu",
+    "WS": "Samoa",
+    "YE": "Yémen",
+    "ZA": "Afrique du Sud",
+    "ZM": "Zambie",
+    "ZW": "Zimbabwe"
+  }
+}
