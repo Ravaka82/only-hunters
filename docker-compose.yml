@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  front-only-hunters:
+    build:
+      context: ./only-hunters
+    volumes:
+      - ./only-hunters:/app
+    ports:
+      - "3001:3001"
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
