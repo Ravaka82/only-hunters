@@ -1,0 +1,38 @@
+# 🚀 Python (FastAPI)
+__pycache__/
+*.py[cod]
+*.sqlite3
+venv/
+.env
+.env.local
+.next/*
+node_modules/*
+
+# 🐳 Docker
+docker-compose.override.yml
+*.dockerfile
+/rootfs  # Si rootfs est généré dynamiquement
+backend/__pycache__
+backend/migrations/
+
+# 📦 Node.js (React Frontend)
+only-hunters/node_modules/
+only-hunters/.next/
+only-hunters/.turbo/
+only-hunters/.env.local
+
+# 🔥 Logs et Caches
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log
+debug.log
+
+# 🛠️ IDE / OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
